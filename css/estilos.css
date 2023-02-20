@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+/*contacto*/
+.contacto {
+  font-family: 'Covered By Your Grace', cursive;
+  color: rgba(235, 206, 44, 0.993); }
+
+/*Marcas*/
+.marcas {
+  font-size: 2rem;
+  font-weight: bold;
+  color: brown;
+  height: 90vh;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1f; }
+  .marcas .marcas1 {
+    background-image: url(../img/bosque.jpg); }
+  .marcas .marcas2 {
+    background-image: url(../img/lagomontañazip.jpg); }
+  .marcas .marcas3 {
+    background-image: url(../img/alerceszip.jpg); }
+  .marcas .marcas4 {
+    background-image: url(../img/trailgrupozip.jpg); }
+
+/* Nosotros*/
+main h3 p, main p {
+  text-align: center;
+  font-family: 'Covered By Your Grace', cursive;
+  opacity: 1; }
+
+main h3 p {
+  font-size: 1rem;
+  color: rgba(235, 206, 44, 0.993); }
+
+/*estilos productos*/
+.productos {
+  font-size: 2rem;
+  font-weight: bold;
+  color: brown;
+  height: 90vh;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1f; }
+  .productos .producto1 {
+    background-image: url(../img/bosque.jpg); }
+  .productos .producto2 {
+    background-image: url(../img/lagomontañazip.jpg); }
+  .productos .producto3 {
+    background-image: url(../img/alerceszip.jpg); }
+  .productos .producto4 {
+    background-image: url(../img/trailgrupozip.jpg); }
+
+main h3 p, main p {
+  text-align: center;
+  font-family: 'Covered By Your Grace', cursive;
+  opacity: 1; }
+
+header nav {
+  background: linear-gradient(#585c58, #bebead); }
+  header nav .navbar-brand img {
+    height: 80px; }
+
+header ul li {
+  font-family: 'Covered By Your Grace', cursive; }
+
+/*body*/
+/*main*/
+main {
+  background-image: url(../img/montañalagoazul.jpg);
+  background-size: cover;
+  padding: 40px;
+  background-position: center; }
+  main h1 {
+    font-size: 5.4em;
+    color: rgba(235, 206, 44, 0.993);
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    flex-direction: column;
+    height: 30vh;
+    font-family: 'Covered By Your Grace', cursive;
+    opacity: 0.7; }
+  main .trekking img {
+    height: 7rem;
+    position: static;
+    margin-bottom: 3rem; }
+  main p {
+    font-size: 1;
+    color: rgba(235, 206, 44, 0.993); }
+
+/*footer*/
+footer {
+  background: linear-gradient(#585c58, #bebead);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem; }
+  footer button {
+    font-size: 1,2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #b3a6a9;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px;
+    color: black;
+    box-shadow: 2px 2px 10px black;
+    margin: 10px; }
+    footer button a {
+      color: #0e0b0b; }
+  footer button:hover {
+    background-color: #c28cab; }
+  footer h2 p {
+    font-size: 0.6rem; }
+  footer .logoface img {
+    margin: 10px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 2px; }
+
+/*pantalla tablet*/
+@media screen and (min-width: 600px) {
+  header nav {
+    background: linear-gradient(#596659, #b4b411); } }
+
+/*pantalla de escritorio*/
+@media screen and (min-width: 1024px) {
+  header nav {
+    display: flex;
+    display: block; }
+  nav ul li {
+    font-weight: bold;
+    display: block;
+    display: flex;
+    font-size: 1.4rem;
+    margin-left: 80px; }
+  .navbar-brand img {
+    margin-left: 30px; } }

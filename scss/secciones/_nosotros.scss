@@ -1,0 +1,12 @@
+/* Nosotros*/
+
+@import "../utilidades/vars";
+@import "../utilidades/extend";
+@import "./utilidades/mixin";
+
+main h3 p{
+    font-size: 1rem;
+    color: $color-principal;
+    @extend %parrafo;
+
+ }

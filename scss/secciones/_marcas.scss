@@ -1,0 +1,30 @@
+/*Marcas*/
+@import "/utilidades/mixin.scss";
+.marcas{
+    font-size: 2rem;
+    font-weight: bold;
+    color: brown;
+     height: 90vh;
+      display: grid;
+      justify-content: center;
+      
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1f;
+  
+  
+  .marcas1{background-image: url(../img/bosque.jpg);
+  
+      
+   
+  } 
+  .marcas2{background-image: url(../img/lagomontañazip.jpg);
+        
+      }
+  .marcas3{background-image: url(../img/alerceszip.jpg);
+             
+      }
+  .marcas4{background-image:url(../img/trailgrupozip.jpg);
+          
+      }
+    }
+    
